@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业网站</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_YSlider.css">
+</head>
+<body>
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+				<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+			</ul>
+		</div>
+	</div><!-- top结束 -->
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo_left">
+				<img src="images/logo.jpg" alt="慕课网" />
+			</div>
+			<div class="logo_right">
+				<img src="images/tel.jpg" alt="服务热线" />
+				24小时服务热线：<span class="tel">123-456-7890</span>
+			</div>
+		</div><!-- logo结束 -->
+		<div class="nav">
+			<div class="nav_left"></div>
+			<div class="nav_mid">
+				<div class="nav_mid_left">
+					<ul>
+						<li><a href="#">首页</a></li>
+						<li><a href="list.html">关于慕课</a></li>
+						<li><a href="list.html">新闻动态</a></li>
+						<li><a href="list.html">课程中心</a></li>
+						<li><a href="list.html">在线课程</a></li>
+						<li><a href="list.html">人才招聘</a></li>
+					</ul>
+				</div>
+				<div class="nav_mid_right">
+					<form action="" method="post">
+						<input type="text" class="search_text" />
+					</form>
+				</div>
+			</div><!-- nav_mid结束 -->
+			<div class="nav_right"></div>
+		</div><!-- nav结束 -->
+		<div class="ad" id="picBox">
+		  <div class="loading"><img src="images/loading.gif" alt="图片加载中" /></div>
+		  <div class="pic">
+			<ul>
+				<li><img src="images/ad2.jpg" alt="" /></li>
+				<li><img src="images/ad3.jpg" alt="" /></li>
+				<li><img src="images/ad4.jpg" alt="" /></li>
+			</ul>
+		  </div>
+		</div><!-- ad结束 -->
+		<div class="main">
+			<div class="news">
+				<div class="title">
+					<h2 class="title_left">新闻中心</h2><span class="title_right"><a href="news.html">More&gt;&gt;</a></span>
+				</div><!--title结束 -->
+				<div class="pic_news">
+					<img src="images/news.jpg" /><h2><a href="news.html">三生三世十里桃花</a></h2>
+					<p>
+					  恩怨纠葛如浮云过，她遗憾没在最好的年华里遇上他。
+                      明明是很普通的诀别话，一瞬间却突然想要落泪.
+                      <a href="a.html">learn more&gt;&gt;</a>
+					</p>
+				</div><!-- pic_news结束 -->
+				<div class="news_list">
+					<ul>
+						<li><a href="news.html">梦醒之后</a><span>2016-4-07</span></li>
+						<li><a href="news.html">梦中如何，便忘干净</a><span>2016-4-03</span></li>
+						<li><a href="news.html">梦中如何</a><span>2016-4-04</span></li>
+						<li><a href="news.html">梦醒之后，梦中如何，便忘干净</a><span>2016-4-02</span></li>
+					</ul>
+				</div><!-- news_list结束 -->
+			</div><!-- news结束 -->
+			<div class="course">
+				<div class="title">
+					<h2 class="title_left">课程中心</h2><span class="title_right"><a href="news.html">More&gt;&gt;</a></span>
+				</div><!-- title结束 -->
+				<div class="course_pic">
+					<img src="images/css.jpg" /><h2><a href="news.html">CSS圆角进化论</a></h2><p>从jQuery 震撼整个 Web ，至今已有十年了，我们有很好的理由一直坚持使用维护它。jQuery为用户提供了 DOM 进行操作，执行 Ajax 请求，创建动画等等，极为友好的接口。</p>
+				</div><!-- course_pic结束 -->
+				<div class="course_type">
+					<ul>
+						<li>PHP</li>
+						<li>JAVA</li>
+						<li>CSS</li>
+						<li>Android</li>
+					</ul>
+				</div><!-- course_type结束 -->
+			</div><!-- course结束 -->
+			<div class="sidebar">
+				<div class="video">
+					<div class="title">
+						<h2 class="title_left">媒体聚焦</h2>
+					</div><!-- title结束 -->
+					<div class="video_content">
+						<embed src="http://player.youku.com/player.php/sid/XMTUyNTI1Mzg1Mg==/v.swf" allowFullScreen="true" quality="high" width="220" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+					</div><!-- video_content结束 -->
+				</div><!-- video结束 -->
+				<div class="sidebar_ad">
+					<img src="images/app.jpg" />
+				</div><!-- sidebar_ad结束 -->
+			</div><!-- sidebar结束 -->
+		</div><!-- main结束 -->
+	</div><!-- wrap结束 -->
+	<div class="copyright">
+		<div class="copyright_content">
+			<ul>
+				<li><a href="#">关于</a>
+                     <ul>
+                     	<li><a href="#">品牌故事</a></li>
+                     	<li><a href="#">联系我们</a></li>
+                     	<li><a href="#">加入我们</a></li>
+                     	<li><a href="#">版权声明</a></li>
+                     </ul>
+				</li>
+				<li><a href="#">课程</a>
+                     <ul>
+                     	<li><a href="#">品牌故事</a></li>
+                     	<li><a href="#">联系我们</a></li>
+                     	<li><a href="#">加入我们</a></li>
+                     	<li><a href="#">版权声明</a></li>
+                     </ul>
+				</li>
+				<li><a href="#">留言</a>
+                    <ul>
+                     	<li><a href="#">品牌故事</a></li>
+                     	<li><a href="#">联系我们</a></li>
+                     	<li><a href="#">加入我们</a></li>
+                     	<li><a href="#">版权声明</a></li>
+                     </ul>
+				</li>
+				<li><a href="#">关注</a>
+                    <ul>
+                     	<li><a href="#">品牌故事</a></li>
+                     	<li><a href="#">联系我们</a></li>
+                     	<li><a href="#">加入我们</a></li>
+                     	<li><a href="#">版权声明</a></li>
+                     </ul>
+				</li>
+				<li><a href="#"><img src="images/weixin.png" />微信关注</a>
+                      <ul>
+                      	<li><img src="images/qrcode.jpg"></li>
+                      </ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" charset="gb2312" src="js/setHomeSetFav.js"></script>
+	<script type="text/javascript" src="js/myfocus-2.0.4.min.js"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_YSlider.js"></script>
+	<script type="text/javascript" src="js/focus.js"></script>
+</body>
+</html>
